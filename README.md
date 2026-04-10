@@ -17,9 +17,9 @@
 - Use `/dodo` for data storage. Move any data in your home directory into `/dodo/<your-netid>`. If you don’t have access (e.g., it’s not listed in `df -h`), contact Michael for help. 
 - Use `/data` to store datasets that need fast disk I/O (e.g., BLAST databases). 
 
-<div style="margin-left: 40px;">
+<p align="center">
   <img src="Figures/Fig1.png" width="500">
-</div>
+</p>
 
 ## Getting access to the server
 1. Fill out this form and select Dr. Stadler as sponsor (https://www.crc.rice.edu/app/ricelogin.php). 
@@ -46,21 +46,21 @@ VS Code can also connect to the server via SSH and provides a user-friendly IDE 
 - (Optional) Link your GitHub account to sync your settings. 
 - Click the "Extensions" icon on the left, and search for "ssh". 
 
-<div style="margin-left: 40px;">
+<p align="center">
   <img src="Figures/Fig2.png" width="250">
-</div>
+</p>
 
 - Install the "Remote - SSH" extension. 
 
-<div style="margin-left: 40px;">
+<p align="center">
   <img src="Figures/Fig3.png" width="500">
-</div>
+</p>
 
 - Click the new icon that appears on the left sidebar, called "Remote Explorer". Click the "+" button. 
 
-<div style="margin-left: 40px;">
+<p align="center">
   <img src="Figures/Fig4.png" width="250">
-</div>
+</p>
 
 - In the pop-up text box, enter the SSH command
   ```bash
@@ -71,9 +71,9 @@ VS Code can also connect to the server via SSH and provides a user-friendly IDE 
 - A new VS Code window will open. Select "Continue" and enter your password. 
 - In the new window, click the "Remote Explorer" icon on the left, and you should see that you are now connected to the server. 
 
-<div style="margin-left: 40px;">
+<p align="center">
   <img src="Figures/Fig5.png" width="250">
-</div>
+</p>
 
 - In the center of the window, click "Open...". In the pop-up window, navigate to the directory you want to open and click "OK". 
 - Drag-and-drop any files to the file explorer on the left to upload them to the server. Right-click a file to download it to your computer. 
@@ -114,21 +114,25 @@ xw66@p00:~$ conda activate seqwin
 **1. Install VS Code extensions on your local machine**  
 Before connecting to the server, go to the Extensions tab (left sidebar), search for and install the Python and Jupyter extensions. 
 
-<div style="margin-left: 0px;">
+<p align="center">
   <img src="Figures/Fig6.png" width="500">
-</div>
-<div style="margin-left: 0px;">
-  <img src="Figures/Fig7.png" width="515">
-</div>
+</p>
+<p align="center">
+  <img src="Figures/Fig7.png" width="500">
+</p>
 
 **2. Install VS Code extensions on the server**
 - After connecting to the server, go to the Extensions tab again. Click the download button in the second dropdown menu labeled "SSH: ...". 
 
-<div style="margin-left: 40px;">
+<p align="center">
   <img src="Figures/Fig8.png" width="250">
-</div>
+</p>
 
 - In the pop-up window, select all extensions and click "OK". 
+
+<p align="center">
+  <img src="Figures/Fig9.png" width="400">
+</p>
 
 **3. Create a notebook file**
 - In the VS Code menu, click File > New File... > Jupyter Notebook. 
